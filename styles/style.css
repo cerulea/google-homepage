@@ -1,3 +1,5 @@
-html {
-    background-color: #FFFFFF;
+.center {
+    margin: auto;
+    width: 60%;
+    height: 60%;
 }
