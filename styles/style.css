@@ -1,5 +1,19 @@
 .center {
-    margin: auto;
-    width: 60%;
-    height: 60%;
+    text-align: center;
+}
+
+#searchbar {
+    width: 40%;
+    border-radius: 30px;
+    border-color: #cecece;
+    padding: 12px 0px;
+    margin: 20px 0px;
+}
+
+#google-search-button {
+    margin-right: 30px;
+}
+
+#searchbar:focus {
+    box-shadow: 10px 10px 10px rgb(122, 122, 122);
 }
