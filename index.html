@@ -18,24 +18,30 @@
             <button class="pointer mainbutton">I'm feeling lucky</button>
         </div>
 
-        <div id="top-navbar">
+        <div class="navbar top">
             <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Store</a></li>
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Images</a></li>
-                <li>3x3-grid-icon</li>
-                <li><button>Sign in</button></li>
+
+                <!-- Specify the floatright elements "backwards" -->
+                <li class="floatright invisible-placeholder"></li>
+                <li class="floatright signin-button"><button>Sign in</button></li>
+                <li class="floatright">3x3-grid-icon</li>
+                <li class="floatright"><a href="#">Images</a></li>
+                <li class="floatright"><a href="#">Gmail</a></li>
             </ul>
         </div>
 
-        <div id="bottom-navbar">
+        <div id="bottom-navbar" class="navbar bottom">
             <ul>
                 <li><a href="#">Advertising</a></li>
                 <li><a href="#">Business</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Settings</a></li>
+
+                <!-- Specify the floatright elements "backwards" -->
+                <li class="floatright invisible-placeholder"></li>
+                <li class="floatright"><a href="#">Settings</a></li>
+                <li class="floatright"><a href="#">Terms</a></li>
+                <li class="floatright"><a href="#">Privacy</a></li>
             </ul>
         </div>
 

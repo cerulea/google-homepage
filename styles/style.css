@@ -11,25 +11,58 @@
     box-shadow: 0 0 5px #e2e2e2;
 }
 
+/*
 #searchbar:focus {
-    /* border: none; // I want the blue selection border to disappear */
+    border: none; // I want the blue selection border to disappear 
 }
+*/
 
-#top-navbar, #bottom-navbar {
+.navbar {
     position: fixed;
     width: 100%;
 }
 
-#top-navbar li, #bottom-navbar li {
-    display: inline;
+.navbar ul li {
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+    padding: 0;
 }
 
-#top-navbar {
+.navbar li a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.navbar li * {
+    margin: 5px;
+    padding: 10px;
+}
+
+.navbar ul li.floatright.invisible-placeholder {
+    visibility: hidden;
+    margin: 7px;
+    padding: 5px;
+}
+
+/* Reset the default */
+ul {
+    padding-inline-start: 0px;
+}
+
+.top {
     top: 0;
 }
 
-#bottom-navbar {
+.bottom {
     bottom: 0;
+}
+
+.floatright {
+    float: right;
+}
+
+.navbar.bottom {
     background-color: #f0efef;
 }
 
