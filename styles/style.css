@@ -4,16 +4,33 @@
 
 #searchbar {
     width: 40%;
+
+    border-style: solid;
+    border-width: 1px;
     border-radius: 30px;
-    border-color: #cecece;
+    border-color: #dddddd;
+
     padding: 12px 0px;
     margin: 20px 0px;
+    padding-left: 30px;
 }
 
 #google-search-button {
     margin-right: 30px;
 }
 
-#searchbar:focus {
-    box-shadow: 10px 10px 10px rgb(122, 122, 122);
+#searchbar:hover, #searchbar:focus {
+    box-shadow: 0 0 10px rgb(180, 180, 180);
+}
+
+#top-navbar, #bottom-navbar {
+    background-color: #f0efef;
+}
+
+#top-navbar li {
+    display: inline;
+}
+
+#bottom-navbar li {
+    display: inline;
 }
