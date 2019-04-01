@@ -1,5 +1,6 @@
 .center {
     text-align: center;
+    padding: 12%;
 }
 
 #google-search-button {
@@ -15,11 +16,21 @@
 }
 
 #top-navbar, #bottom-navbar {
-    background-color: #f0efef;
+    position: fixed;
+    width: 100%;
 }
 
 #top-navbar li, #bottom-navbar li {
     display: inline;
+}
+
+#top-navbar {
+    top: 0;
+}
+
+#bottom-navbar {
+    bottom: 0;
+    background-color: #f0efef;
 }
 
 .pointer {
